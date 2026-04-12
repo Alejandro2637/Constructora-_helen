@@ -1,0 +1,80 @@
+:root {
+    --color-principal: #c89b3c;
+    --color-principal-hover: #b18933;
+    --color-texto: #1f2933;
+    --color-muted: #6c757d;
+    --color-fondo-suave: #f8f9fb;
+}
+
+/* NOSOTROS */
+.nosotros img {
+    border-radius: 1rem;
+    transition: transform .4s ease;
+}
+
+.nosotros img:hover {
+    transform: scale(1.03);
+}
+
+.nosotros ul li {
+    padding-left: .25rem;
+}
+
+/* SERVICIOS */
+.servicios .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all .3s ease;
+}
+
+.servicios .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.08);
+}
+
+.servicios .card-title {
+    font-weight: 600;
+}
+
+/* PROYECTOS */
+.proyectos .card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.proyectos .card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.proyectos .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 .75rem 1.75rem rgba(0,0,0,.1);
+}
+
+/* Testimonios */
+.proyectos blockquote p {
+    font-size: 1.1rem;
+}
+
+/* CONTACTO */
+.contacto .card {
+    border-radius: 1.25rem;
+}
+
+.contacto .form-control,
+.contacto .form-select {
+    padding: .75rem 1rem;
+    border-radius: .75rem;
+}
+
+.contacto textarea {
+    resize: none;
+}
+
+.contacto iframe {
+    border: 0;
+    border-radius: 1rem;
+}

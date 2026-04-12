@@ -1,0 +1,1 @@
+class EmailRequest extends FormRequest
